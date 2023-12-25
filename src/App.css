@@ -1,0 +1,155 @@
+body {
+  background-color: #E8A87C;
+}
+
+.ocr {
+  position: fixed;
+  margin-left: 25%;
+  justify-content: center;
+  align-items: center;
+  font-size: 3.5rem;
+  font-weight: bold;
+  color: black;
+}
+
+.ocr p {
+  padding: 1.2rem 2rem;
+  margin-top: 1rem;
+  /* border-bottom: 10px solid #235789; */
+}
+
+.upload {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1rem;
+  font-weight: bold;
+  position: fixed;
+  bottom: 3rem; /* Adjusted distance from the bottom */
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.upload input {
+  font-size: 1rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+
+}
+
+.upload .btn2 {
+  padding: 0.5rem 2.5rem;
+  font-size: 1.5rem;
+  border-radius: 10px;
+  font-weight: bold;
+  background-color: black;
+  color: whitesmoke;
+  border-color: #78C3FB;
+  cursor: pointer;
+  
+}
+
+.upload .btn {
+  padding: 0.5rem 2.5rem;
+  font-size: 1.5rem;
+  border-radius: 10px;
+  font-weight: bold;
+  background-color: gray;
+  color: whitesmoke;
+  border-color: #25A18E;
+  margin-left: 2rem;
+  cursor: pointer;
+}
+
+.par {
+  display: flex;
+  margin-left: 10%;
+  /* border: 10px solid #235789; */
+  margin-top: 2rem;
+  overflow: hidden;
+
+}
+
+.par img {
+  width: 100%;
+  height: auto;
+  max-width: 30rem;
+  object-fit: cover;
+  border-radius: 10px 10px 10px 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.par .items {
+  font-size: 25px;
+  padding-left: 15rem;
+  /* margin-top: rem; */
+  font-weight: bold;
+  /* margin-left: -10rem; */
+}
+
+.parCard {
+  display: grid;
+  gap: 50px 100px;
+}
+
+.card {
+  /* flex-basis: 100%; */
+  grid-row-start: 1;
+  grid-row-end: 3;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.3);
+  width: auto;
+  text-align: center;
+  padding: 1rem;
+  background-color: burlywood;
+  margin-right: 5%;
+ }
+
+.filterButton {
+  margin-top: 25%;
+  margin-left: 40%;
+  border: #235789;
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  padding: 0.5rem 3.7rem;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.outputButton{
+  margin-top: 25px;
+  margin-left: 40%;
+  border: #235789;
+  background-color: gray;
+  color: white;
+  font-weight: bold;
+  padding: 0.5rem 3.2rem;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.deleteBtn{
+  margin-top: 25px;
+  margin-left: 10px;
+  border: #235789;
+  background-color: gray;
+  color: white;
+  font-weight: bold;
+  padding: 0.5rem 3.2rem;
+  border-radius: 15px;
+  cursor: pointer;
+}
+.updateBtn{
+  margin-top: 25px;
+  margin-left: 10px;
+  border: #235789;
+  background-color: gray;
+  color: white;
+  font-weight: bold;
+  padding: 0.5rem 3.2rem;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+
+ 

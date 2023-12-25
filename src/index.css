@@ -1,0 +1,16 @@
+body {
+  margin: 20px; 
+  font-family: 'Arial', sans-serif; 
+  background-color: #f2f2f2; 
+  color: #333; 
+}
+
+code {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 14px;
+  color: #3366cc; 
+  background-color: #f4f4f4; 
+  padding: 4px 8px; 
+  border-radius: 4px;
+  display: inline-block; 
+}
